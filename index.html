@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スーパー登山部 - インフォグラフィック</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: space-between;
+        }
+        .card {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 10px;
+            flex: 1 1 calc(50% - 20px);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .icon {
+            width: 24px;
+            vertical-align: middle;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                flex-direction: column;
+            }
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>スーパー登山部 インフォグラフィック</h1>
+
+    <div class="section">
+        <h2>🎸 バンド概要</h2>
+        <p><strong>結成：</strong> 2023年1月</p>
+        <p><strong>拠点：</strong> 名古屋市</p>
+        <p><strong>特徴：</strong> 音楽と登山を融合した5人組バンド</p>
+    </div>
+
+    <div class="section">
+        <h2>👥 メンバー</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Hina (ボーカル)</h3>
+                <p>小田の大学の後輩。合唱部での経験を活かし、表現力豊かな歌声が特徴。</p>
+            </div>
+            <div class="card">
+                <h3>小田智之 (キーボード・ボーカル)</h3>
+                <p>バンドリーダーで作曲家。山頂で鍵盤ハーモニカを演奏することが夢。</p>
+            </div>
+            <div class="card">
+                <h3>いしはまゆう (ギター・ボーカル)</h3>
+                <p>グラフィックデザインも担当し、ロゴやフライヤーを制作。</p>
+            </div>
+            <div class="card">
+                <h3>梶祥太郎 (ベース)</h3>
+                <p>名古屋のアーティストを支えるベーシストとしても活躍。</p>
+            </div>
+            <div class="card">
+                <h3>深谷雄一 (ドラム)</h3>
+                <p>中村佳穂BANDのサポートなど、多方面で活躍するドラマー。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏔 登山活動</h2>
+        <ul>
+            <li>2023年7月：<strong>木曽駒ヶ岳（2,956m）</strong> 初登頂</li>
+            <li>八ヶ岳・天狗岳（2,646m）、御在所岳、南木曽岳にも挑戦</li>
+            <li>登山を通して、バンドの結束が強まる</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🎵 音楽活動</h2>
+        <ul>
+            <li>ポップス・ジャズ・レゲエなど、多彩なジャンルを融合</li>
+            <li>登山経験を楽曲に反映</li>
+            <li>主なリリース：
+                <ul>
+                    <li>2023年8月：シングル「風を辿る」</li>
+                    <li>2023年10月：シングル「意志拾い」</li>
+                    <li>2024年1月：シングル「ITAI」</li>
+                    <li>2024年3月：1st EPリリース</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📅 主要ライブ・イベント</h2>
+        <ul>
+            <li><strong>2023年5月</strong> - 初ライブ（名古屋KDハポン）</li>
+            <li><strong>2023年8月</strong> - 天狗岳黒百合ヒュッテ & 東京代官山UNITでライブ</li>
+            <li><strong>2024年6月～8月</strong> - 東名阪ツアー「1st EP Release Traverse」</li>
+            <li><strong>2025年5月10日</strong> - <strong>御在所トップフェスティバル</strong>開催予定！</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🚀 クラウドファンディング</h2>
+        <p>2024年8月に白馬山荘ライブ実現のためクラウドファンディングを実施。多くの支援を受け成功！</p>
+    </div>
+
+    <div class="section">
+        <h2>🔮 今後の展望</h2>
+        <p>山頂ライブやオーケストラとの共演を目指し、さらなる挑戦を続ける。</p>
+    </div>
+</div>
+
+</body>
+</html>
